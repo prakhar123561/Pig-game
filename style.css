@@ -1,0 +1,93 @@
+body{
+    font-family: 'Montserrat';
+    font-size: 24;
+    font-weight: 600;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.row{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player--0{
+    padding: 10px 14px 10px 35px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    
+}
+
+.player--1{
+    padding: 10px 35px 10px 14px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    
+}
+
+span{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.col-2{
+    background-color: aqua;
+ 
+}
+
+#dice{
+    padding: 20px 20px;
+    /* margin-right: 125px; */
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.hidden{
+    display: none;
+}
+
+.player--winner {
+    background-color: #2f2f2f;
+    
+}
+
+.player--active {
+    background-color:  #ED4C67;
+}
+
+#buttons{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+#buttons button{
+    margin: 5px;
+    background-color: antiquewhite;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#buttons button:hover{
+    background-color: chocolate;
+}
+
+#current{
+    padding: 10px 20px;
+    background-color: #B53471;
+    border-radius: 5px;
+}
+
+ul{
+    color: rgb(250, 143, 76);
+    padding-top: 80px;
+    font-size: larger;
+}
